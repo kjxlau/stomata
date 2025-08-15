@@ -48,10 +48,10 @@ if __name__ == '__main__':
     # 4. Loop through each JSON file found.
     for json_file in json_files:
         # Create a corresponding output filename for the mask.
-        # It takes the base name of the JSON file (e.g., "Rice_40x_320")
+        # It takes the base name of the JSON file
         # and creates a new path in the output directory.
-        base_name = os.path.basename(json_file) # e.g., "Rice_40x_320.json"
-        file_name_without_ext = os.path.splitext(base_name)[0] # e.g., "Rice_40x_320"
+        base_name = os.path.basename(json_file)
+        file_name_without_ext = os.path.splitext(base_name)[0] 
         output_file = os.path.join(output_directory, f"{file_name_without_ext}_mask.png")
 
         # Process the file and generate the mask
