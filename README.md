@@ -3,8 +3,8 @@ A dataset comprising of 1,000 microscopy images was gathered from the abaxial su
 
 ## 1. Manual Annotation of Images with LabelMe
 Download and install app from https://github.com/wkentaro/labelme
-<br> Using the polygon tool, draw polygon objects encircling around objects of interest and label it with a class name "stomata". </br>
-A JSON annotation file will be created of the class object and coordinate space in the corresponding image when you hit the 'save' button.
+<br> Using the polygon tool, draw polygon objects encircling the stomata (object of interest) and label it with a class name "stomata". </br>
+A JSON annotation file will be created for the class object which contains coordinates information of the polygon objects in 2D space in the corresponding image when you hit the 'save' button.
 
 <img width="622" height="464" alt="labelme" src="https://github.com/user-attachments/assets/32442cec-06da-446b-a9e8-9fcefe2cdec0" />
 
