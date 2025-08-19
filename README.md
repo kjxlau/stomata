@@ -9,11 +9,11 @@ A JSON annotation file will be created of the class object and coordinate space 
 <img width="622" height="464" alt="labelme" src="https://github.com/user-attachments/assets/32442cec-06da-446b-a9e8-9fcefe2cdec0" />
 
 ## 2. JSON to Binary Mask script
-Run python json_to_binary_mask.py 
+Run python [json_to_binary_mask.py](https://github.com/kjxlau/stomata/blob/main/json_to_binary_mask.py) 
 <br> To convert JSON coordinate index files into binary mask in PNG format </br>
 
 ## 3. Convert segmented binary mask into YOLO format and initiate YOLOv12 model training
-Run python train_yolo_model.py
+Run python [train_yolo_model.py](https://github.com/kjxlau/stomata/blob/main/train_yolo_model.py)
 <br> Specify the number of epoch cycles and augmentation. </br>
 Augmentation includes scaling, flipping left-right, flipping up-down and rotating at various angles for training.
 <br> https://rumn.medium.com/yolo-data-augmentation-explained-turbocharge-your-object-detection-model-94c33278303a </br>
