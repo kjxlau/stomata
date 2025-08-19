@@ -1,5 +1,2 @@
 ### Stomata Detection
-A collection of 1000 microscopy images were collected from the abaxial leaves of barley and rice plants.
-The leaves were captured at 200x and 400x magnification in barley and rice respectively.
-Stomata were manually segmented using a polygon tool and converted into binary masks.
-The images and binary masks were used to train the YOLO model.
+A dataset comprising 1,000 microscopy images was gathered from the abaxial surfaces of barley and rice leaves. Barley leaf images were captured at 200x magnification, while rice leaf images were taken at 400x. Stomata within these images were manually annotated using the LabelMe polygon tool, and the resulting JSON annotations were transformed into binary mask formats. These annotated images and corresponding masks served as training data for the YOLO object detection model.
