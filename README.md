@@ -19,7 +19,12 @@ Run python train_yolo_model.py
 
 <img width="403" height="272" alt="image" src="https://github.com/user-attachments/assets/c81b17e0-f4c4-416b-ab30-4e2ec2e39638" />
 
-Flash attention in YOLOv12 can speed up computational time significantly.Turing GPUs (e.g., T4, Quadro RTX series), Ampere GPUs (e.g., RTX30 series, A30/40/100), Ada Lovelace GPUs (e.g., RTX40 series), or Hopper GPUs (e.g., H100/H200). It can still run in CPUs by default.
+YOLOv12 integrates Flash Attention to dramatically reduce computation time during training and inference. This optimization is especially effective on modern GPU architectures, including:
+<br> - Turing: NVIDIA T4, Quadro RTX series </br>
+<br> - Ampere: RTX 30 series, A30, A40, A100 </br>
+<br> - Ada Lovelace: RTX 40 series </br>
+<br> - Hopper: H100, H200 </br>
+While GPU acceleration is highly recommended for optimal performance, YOLOv12 remains compatible with CPU-based training. However, users should expect significantly longer runtimes when operating without GPU support.
 
 <img width="1346" height="814" alt="image" src="https://github.com/user-attachments/assets/67dd1075-3305-4364-9a0b-9e0898933e9f" />
 
