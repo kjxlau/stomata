@@ -20,7 +20,7 @@ Augmentation includes scaling, flipping left-right, flipping up-down and rotatin
 
 <img width="403" height="272" alt="image" src="https://github.com/user-attachments/assets/c81b17e0-f4c4-416b-ab30-4e2ec2e39638" />
 
-YOLOv12 integrates Flash Attention to dramatically reduce computation time during training and inference. This optimization is especially effective on modern GPU architectures, including Turing: NVIDIA T4, Quadro RTX series, Ampere: RTX 30 series, A30, A40, A100, Ada Lovelace: RTX 40 series, Hopper: H100, H200. While GPU acceleration is highly recommended for optimal performance, YOLOv12 remains compatible with CPU-based training. However, users should expect significantly longer runtimes when operating without GPU support.
+YOLOv12 integrates Flash Attention to significantly reduce computation time during training and inference. This optimization is especially effective on modern GPU architectures, including Turing: NVIDIA T4, Quadro RTX series, Ampere: RTX 30 series, A30, A40, A100, Ada Lovelace: RTX 40 series, Hopper: H100, H200. While GPU acceleration is highly recommended for optimal performance, YOLOv12 remains compatible with CPU-based training. However, users should expect longer runtimes when operating without GPU support.
 
 <img width="1346" height="814" alt="image" src="https://github.com/user-attachments/assets/67dd1075-3305-4364-9a0b-9e0898933e9f" />
 
