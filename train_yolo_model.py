@@ -190,5 +190,5 @@ results = model.train(
     fliplr = 0.5,
     degrees = 90.0,
     batch = 3,
-    imgsz=1200
+    imgsz=1216
 )
