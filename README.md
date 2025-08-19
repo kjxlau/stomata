@@ -14,7 +14,7 @@ Run python json_to_binary_mask.py
 
 ## 3. Convert segmented binary mask into YOLO format and initiate YOLOv12 model training
 Run python train_yolo_model.py
-<br> Specify the number of epoch cycles and augmentation </br>
+<br> Specify the number of epoch cycles and augmentation. </br>
 Augmentation includes scaling, flipping left-right, flipping up-down and rotating at various angles for training.
 <br> https://rumn.medium.com/yolo-data-augmentation-explained-turbocharge-your-object-detection-model-94c33278303a </br>
 
