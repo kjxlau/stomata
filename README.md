@@ -5,9 +5,11 @@ A dataset comprising 1,000 microscopy images was gathered from the abaxial surfa
 ## 1. Manual Annotation of Images with LabelMe
 Please install app from https://github.com/wkentaro/labelme
 <br> Draw polygon boxes around object of interest and label it with a class name "stomata". </br>
-JSON file will be created of the class object and coordinate space in the corresponding image.
+A JSON annotation file will be created of the class object and coordinate space in the corresponding image when you hit the 'save' button.
 
-## JSON to Binary Mask script
+<img width="622" height="464" alt="labelme" src="https://github.com/user-attachments/assets/32442cec-06da-446b-a9e8-9fcefe2cdec0" />
+
+## 2. JSON to Binary Mask script
 Run python json_to_binary_mask.py to convert JSON coordinate index files into binary mask in PNG format
 
 <img width="1667" height="929" alt="image" src="https://github.com/user-attachments/assets/a2940670-67a4-474c-8138-48c1aafa27c5" />
