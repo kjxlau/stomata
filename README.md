@@ -3,7 +3,6 @@ A dataset comprising 1,000 microscopy images was gathered from the abaxial surfa
 
 ## 1. Manual Annotation of Images with LabelMe
 Download and install app from https://github.com/wkentaro/labelme
-<br> </br>
 <br> Using the polygon tool, draw polygon objects encircling around objects of interest and label it with a class name "stomata". </br>
 A JSON annotation file will be created of the class object and coordinate space in the corresponding image when you hit the 'save' button.
 
@@ -11,14 +10,11 @@ A JSON annotation file will be created of the class object and coordinate space 
 
 ## 2. JSON to Binary Mask script
 Run python json_to_binary_mask.py 
-<br> </br>
 <br> To convert JSON coordinate index files into binary mask in PNG format </br>
 
 ## 3. Convert segmented binary mask into YOLO format and initiate YOLOv12 model training
 Run python train_yolo_model.py
-<br> </br>
 <br> Specify the number of epoch cycles and augmentation </br>
-<br> </br>
 Augmentation includes scaling, flipping left-right, flipping up-down and rotating at various angles for training.
 <br> https://rumn.medium.com/yolo-data-augmentation-explained-turbocharge-your-object-detection-model-94c33278303a </br>
 
