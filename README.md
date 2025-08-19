@@ -13,8 +13,6 @@ A JSON annotation file will be created of the class object and coordinate space 
 Run python json_to_binary_mask.py 
 <br> To convert JSON coordinate index files into binary mask in PNG format </br>
 
-<img width="1392" height="1040" alt="Rice_40x_310_mask" src="https://github.com/user-attachments/assets/a9b1d82f-cc52-4e07-bdae-4f12c8aa47c0" />
-
 ## 3. Convert segmented binary mask into YOLO format and initiate YOLOv12 model training
 Run python train_yolo_model.py
 <br> Specify the number of epoch cycles and augmentation </br>
