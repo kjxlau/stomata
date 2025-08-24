@@ -56,7 +56,7 @@ Run python [yolo_to_coco.py](https://github.com/kjxlau/stomata/blob/main/yolo_to
 ## 6. Train RF-DETR model to compare performance against YOLOv12
 Run python [train_RF_DETR.py](https://github.com/kjxlau/stomata/blob/main/train_RF_DETR.py) to train model. 
 <br>Arrange your files such that the _annotations.coco.json is in the same folder as your images to train. </br>
-'''
+```
 /path/to/your/dataset/
 ├── train/
 │   ├── _annotations.coco.json
@@ -73,3 +73,4 @@ Run python [train_RF_DETR.py](https://github.com/kjxlau/stomata/blob/main/train_
     ├── image5.jpg
     ├── image6.jpg
     └── ...
+```
