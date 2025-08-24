@@ -52,7 +52,7 @@ YOLOv12 integrates Flash Attention to significantly reduce computation time duri
 
 ## 5. Convert YOLO annotations to COCO format
 Run python [yolo_to_coco.py](https://github.com/kjxlau/stomata/blob/main/yolo_to_coco.py) 
-<br>/path/to/images/train /path/to/labels/train /path/to/data.yaml /path/to/output/train_coco.json </br>
+<br>/path/to/images/train /path/to/labels/train /path/to/data.yaml /path/to/output/_annotations.coco.json </br>
 ## 6. Train RF-DETR model to compare performance against YOLOv12
 Run python [train_RF_DETR.py](https://github.com/kjxlau/stomata/blob/main/train_RF_DETR.py) to train model. 
 <br>Arrange your files such that the _annotations.coco.json is in the same folder as your images to train. </br>
