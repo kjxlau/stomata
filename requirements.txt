@@ -1,3 +1,8 @@
 rfdetr
 protobuf==3.20.0
 wrapt
+json
+numpy
+cv2
+os
+glob
