@@ -17,6 +17,27 @@ Run python [train_yolo_model.py](https://github.com/kjxlau/stomata/blob/main/tra
 <br> Specify the number of epochs for training and augmentation techniques to use. </br>
 Augmentation includes scaling, flipping left-right, flipping up-down and rotating at various angles for training.
 <br> https://rumn.medium.com/yolo-data-augmentation-explained-turbocharge-your-object-detection-model-94c33278303a </br>
+Arrange your image and annotation files as follows:
+> /path/to/your/dataset/
+├── data.yaml
+├── images/
+│   ├── train/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   └── val/
+│       ├── image3.jpg
+│       ├── image4.jpg
+│       └── ...
+└── labels/
+    ├── train/
+    │   ├── image1.txt
+    │   ├── image2.txt
+    │   └── ...
+    └── val/
+        ├── image3.txt
+        ├── image4.txt
+        └── ...
 
 <img width="403" height="272" alt="image" src="https://github.com/user-attachments/assets/c81b17e0-f4c4-416b-ab30-4e2ec2e39638" />
 
