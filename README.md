@@ -17,7 +17,7 @@ Run python [train_yolo_model.py](https://github.com/kjxlau/stomata/blob/main/tra
 <br> Specify the number of epochs for training and augmentation techniques to use. </br>
 We can try 300 epochs for this stomata project.
 Augmentation includes scaling, flipping left-right, flipping up-down and rotating at various angles for training.
-<br> https://rumn.medium.com/yolo-data-augmentation-explained-turbocharge-your-object-detection-model-94c33278303a </br>
+<br> [Image Augmentation Docs](https://docs.roboflow.com/datasets/dataset-versions/image-augmentation) </br>
 Arrange your image and annotation files as follows:
 ```
 /path/to/your/dataset/
