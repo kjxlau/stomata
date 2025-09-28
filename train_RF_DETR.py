@@ -196,4 +196,4 @@ def callback2(data):
 model.callbacks["on_fit_epoch_end"].append(callback2)
 
 #specifiy the no of epochs and batch size for training
-model.train(dataset_dir="./coco_dataset/", epochs=20, batch_size=4, lr=1e-4)
+model.train(dataset_dir="./coco_dataset/", epochs=300, batch_size=4, lr=1e-4)
