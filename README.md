@@ -15,7 +15,7 @@ Run python [json_to_binary_mask.py](https://github.com/kjxlau/stomata/blob/main/
 ## 3. Convert segmented binary mask into YOLO format and initiate YOLOv12 model training
 Run python [train_yolo_model.py](https://github.com/kjxlau/stomata/blob/main/train_yolo_model.py)
 <br> Specify the number of epochs for training and augmentation techniques to use. </br>
-We can try 300 epochs for this stomata project.
+We can try 300 epochs for this stomata project, batch size of 4.
 Augmentation includes scaling, flipping left-right, flipping up-down and rotating at various angles for training.
 <br> [Image Augmentation Docs](https://docs.roboflow.com/datasets/dataset-versions/image-augmentation) </br>
 Arrange your image and annotation files as follows:
@@ -53,7 +53,7 @@ YOLOv12 integrates Flash Attention to significantly reduce computation time duri
 Run python [yolo_to_coco.py](https://github.com/kjxlau/stomata/blob/main/yolo_to_coco.py) 
 <br>/path/to/images/train /path/to/labels/train /path/to/data.yaml /path/to/output/_annotations.coco.json </br>
 ## 6. Train RF-DETR model to compare performance against YOLOv12
-Run python [train_RF_DETR.py](https://github.com/kjxlau/stomata/blob/main/train_RF_DETR.py) to train model for 20 epochs, batch size of 4. 
+Run python [train_RF_DETR.py](https://github.com/kjxlau/stomata/blob/main/train_RF_DETR.py) to train model for 300 epochs, batch size of 4. 
 <br>Arrange your files such that the _annotations.coco.json is in the same folder as your images to train. </br>
 ```
 /path/to/your/dataset/
